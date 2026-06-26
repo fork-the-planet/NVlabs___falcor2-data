@@ -1,0 +1,597 @@
+{
+  "file_path": "C:\\src\\falcor2\\data\\assets\\kronos\\AlphaBlendModeTest\\glTF\\AlphaBlendModeTest.gltf",
+  "components": {
+    "meshes": 9,
+    "materials": 6,
+    "textures": 4,
+    "cameras": 0,
+    "lights": 0,
+    "nodes": 9,
+    "root_nodes": 9
+  },
+  "nodes": {
+    "count": 9,
+    "root_count": 9,
+    "root_indices": [
+      3,
+      1,
+      2,
+      6,
+      7,
+      5,
+      4,
+      8,
+      0
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "name": "Bed",
+        "mesh_index": 2,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 1,
+        "name": "DecalBlend",
+        "mesh_index": 7,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 2,
+        "name": "DecalOpaque",
+        "mesh_index": 5,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 3,
+        "name": "GreenArrows",
+        "mesh_index": 4,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 4,
+        "name": "TestBlend",
+        "mesh_index": 3,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 5,
+        "name": "TestCutoff25",
+        "mesh_index": 0,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 6,
+        "name": "TestCutoff75",
+        "mesh_index": 1,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 7,
+        "name": "TestCutoffDefault",
+        "mesh_index": 8,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 8,
+        "name": "TestOpaque",
+        "mesh_index": 6,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      }
+    ],
+    "hierarchy_analysis": {
+      "is_flattened": true,
+      "all_nodes_are_roots": true,
+      "all_nodes_have_no_children": true,
+      "all_nodes_have_meshes": true,
+      "node_count_equals_root_count": true
+    }
+  },
+  "meshes": {
+    "count": 9,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "TestCutoff25Mesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "TestCutoff25Mesh_primitive_0",
+            "material_name": "MatCutoff25",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 1,
+        "name": "TestCutoff75Mesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "TestCutoff75Mesh_primitive_0",
+            "material_name": "MatCutoff75",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 2,
+        "name": "BedMesh",
+        "vertex_count": 72,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "BedMesh_primitive_0",
+            "material_name": "MatBed",
+            "triangle_count": 30
+          }
+        ],
+        "total_triangles": 30
+      },
+      {
+        "index": 3,
+        "name": "TestBlendMesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "TestBlendMesh_primitive_0",
+            "material_name": "MatBlend",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 4,
+        "name": "GreenArrowsMesh",
+        "vertex_count": 9,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "GreenArrowsMesh_primitive_0",
+            "material_name": "MatOpaque",
+            "triangle_count": 3
+          }
+        ],
+        "total_triangles": 3
+      },
+      {
+        "index": 5,
+        "name": "DecalOpaqueMesh",
+        "vertex_count": 32,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "DecalOpaqueMesh_primitive_0",
+            "material_name": "MatOpaque",
+            "triangle_count": 16
+          }
+        ],
+        "total_triangles": 16
+      },
+      {
+        "index": 6,
+        "name": "TestOpaqueMesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "TestOpaqueMesh_primitive_0",
+            "material_name": "MatOpaque",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 7,
+        "name": "DecalBlendMesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "DecalBlendMesh_primitive_0",
+            "material_name": "MatBlend",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 8,
+        "name": "TestCutoffDefaultMesh",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "TestCutoffDefaultMesh_primitive_0",
+            "material_name": "MatCutoffDefault",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      }
+    ]
+  },
+  "materials": {
+    "count": 6,
+    "materials": [
+      {
+        "index": 0,
+        "name": "MatBed",
+        "parameter_count": 15,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "2"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "metallicRoughnessTexture": {
+            "type": "int",
+            "value": "1"
+          },
+          "metallicRoughnessTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "normalTexture": {
+            "type": "int",
+            "value": "0"
+          },
+          "normalTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "normalTexture_strength": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 1,
+        "name": "MatBlend",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "0.800000011920929"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "True"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.blend"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 2,
+        "name": "MatCutoff25",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "0.800000011920929"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "True"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.mask"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.25"
+          }
+        }
+      },
+      {
+        "index": 3,
+        "name": "MatCutoff75",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "0.800000011920929"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "True"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.mask"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.75"
+          }
+        }
+      },
+      {
+        "index": 4,
+        "name": "MatCutoffDefault",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "0.800000011920929"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "True"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.mask"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 5,
+        "name": "MatOpaque",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "0.800000011920929"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "True"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      }
+    ]
+  },
+  "textures": {
+    "count": 4,
+    "textures": [
+      {
+        "index": 0,
+        "source_name": "texture_0",
+        "texture_path": "MatBed_normal.jpg",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 1,
+        "source_name": "texture_1",
+        "texture_path": "MatBed_occlusionRoughnessMetallic.jpg",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 2,
+        "source_name": "texture_2",
+        "texture_path": "MatBed_baseColor.jpg",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 3,
+        "source_name": "texture_3",
+        "texture_path": "AlphaBlendLabels.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      }
+    ]
+  }
+}

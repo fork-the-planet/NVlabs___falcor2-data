@@ -1,0 +1,77 @@
+Asset Licenses
+
+This file lists each self-contained asset folder, the license file that covers it, and the license identifier(s) recorded by the repository.
+
+assets/animation_test
+Apache-2.0: assets/animation_test/LICENSE
+
+assets/cornell-box
+CC0-1.0: assets/cornell-box/LICENSE
+
+assets/envmaps
+CC0-1.0: assets/envmaps/LICENSE
+
+assets/kronos/AlphaBlendModeTest
+CC-BY-4.0: assets/kronos/AlphaBlendModeTest/LICENSE.md
+
+assets/kronos/Avocado
+CC0-1.0: assets/kronos/Avocado/LICENSE.md
+CC-BY-4.0 for metadata: assets/kronos/Avocado/LICENSE.md
+
+assets/kronos/Box
+CC-BY-4.0: assets/kronos/Box/LICENSE.md
+
+assets/kronos/ChronographWatch
+CC-BY-4.0: assets/kronos/ChronographWatch/LICENSE.md
+LicenseRef-LegalMark-Khronos: assets/kronos/ChronographWatch/LICENSE.md
+LicenseRef-LegalMark-DGG for logos: assets/kronos/ChronographWatch/LICENSE.md
+
+assets/kronos/CompareRoughness
+CC0-1.0: assets/kronos/CompareRoughness/LICENSE.md
+CC-BY-4.0 for metadata: assets/kronos/CompareRoughness/LICENSE.md
+LicenseRef-LegalMark-Khronos for logos: assets/kronos/CompareRoughness/LICENSE.md
+
+assets/kronos/EmissiveStrengthTest
+CC-BY-4.0: assets/kronos/EmissiveStrengthTest/LICENSE.md
+
+assets/kronos/MultiUVTest
+CC-BY-4.0: assets/kronos/MultiUVTest/LICENSE.md
+LicenseRef-LegalMark-Khronos for logos: assets/kronos/MultiUVTest/LICENSE.md
+
+assets/kronos/SpecGlossVsMetalRough
+CC-BY-4.0: assets/kronos/SpecGlossVsMetalRough/LICENSE.md
+
+assets/kronos/TextureLinearInterpolationTest
+CC0-1.0: assets/kronos/TextureLinearInterpolationTest/LICENSE.md
+CC-BY-4.0 for metadata: assets/kronos/TextureLinearInterpolationTest/LICENSE.md
+
+assets/kronos/TextureSettingsTest
+CC-BY-4.0: assets/kronos/TextureSettingsTest/LICENSE.md
+
+assets/kronos/TextureTransformTest
+CC0-1.0: assets/kronos/TextureTransformTest/LICENSE.md
+CC-BY-4.0 for metadata: assets/kronos/TextureTransformTest/LICENSE.md
+
+assets/kronos/TransmissionTest
+CC0-1.0: assets/kronos/TransmissionTest/LICENSE.md
+CC-BY-4.0 for metadata: assets/kronos/TransmissionTest/LICENSE.md
+
+assets/kronos/VertexColorTest
+CC-BY-4.0: assets/kronos/VertexColorTest/LICENSE.md
+
+assets/mdl_sdk_examples
+NVidia BSD-3-Clause: assets/mdl_sdk_examples/LICENSE
+CC0-1.0 for resources: assets/mdl_sdk_examples/LICENSE_IMAGES.md
+
+assets/test_normalmap
+Apache-2.0: assets/test_normalmap/LICENSE
+MIT: assets/test_normalmap/LICENSE
+
+assets/test_usd_importer
+Apache-2.0: assets/test_usd_importer/LICENSE
+
+assets/test_uv_origin
+Apache-2.0: assets/test_uv_origin/LICENSE
+
+assets/textures/test_texture_manager
+Apache-2.0: assets/textures/test_texture_manager/LICENSE

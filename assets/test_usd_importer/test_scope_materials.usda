@@ -1,0 +1,31 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+)
+
+def Xform "Root"
+{
+    def Scope "MaterialX" (
+        references = [
+            @../../../external/MaterialX/resources/Materials/Examples/StandardSurface/standard_surface_chess_set.mtlx@</MaterialX>,
+        ]
+    )
+    {
+    }
+
+    def Mesh "Mesh0"
+    {
+        int[] faceVertexCounts = [3]
+        int[] faceVertexIndices = [0, 1, 2]
+        point3f[] points = [(0, 0, 0), (1, 0, 0), (0, 1, 0)]
+        rel material:binding = </Root/MaterialX/Materials/M_Bishop_B>
+    }
+
+    def Mesh "Mesh1"
+    {
+        int[] faceVertexCounts = [3]
+        int[] faceVertexIndices = [0, 1, 2]
+        point3f[] points = [(0, 0, 1), (1, 0, 1), (0, 1, 1)]
+        rel material:binding = </Root/MaterialX/Materials/M_Chessboard>
+    }
+}

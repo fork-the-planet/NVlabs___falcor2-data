@@ -1,0 +1,814 @@
+{
+  "file_path": "C:\\src\\falcor2\\data\\assets\\kronos\\TextureTransformTest\\glTF\\TextureTransformTest.gltf",
+  "components": {
+    "meshes": 9,
+    "materials": 9,
+    "textures": 5,
+    "cameras": 0,
+    "lights": 0,
+    "nodes": 12,
+    "root_nodes": 6
+  },
+  "nodes": {
+    "count": 12,
+    "root_count": 6,
+    "root_indices": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      10
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "name": "Offset U",
+        "mesh_index": 0,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 1,
+        "name": "Offset V",
+        "mesh_index": 1,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 2,
+        "name": "Offset UV",
+        "mesh_index": 2,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 3,
+        "name": "Rotation",
+        "mesh_index": 3,
+        "parent": -1,
+        "children": [
+          4,
+          5,
+          6
+        ],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 4,
+        "name": "Rotation - Correct",
+        "mesh_index": 6,
+        "parent": 3,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      },
+      {
+        "index": 5,
+        "name": "Rotation - Not Supported",
+        "mesh_index": 7,
+        "parent": 3,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      },
+      {
+        "index": 6,
+        "name": "Rotation - Error",
+        "mesh_index": 8,
+        "parent": 3,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      },
+      {
+        "index": 7,
+        "name": "Scale",
+        "mesh_index": 4,
+        "parent": -1,
+        "children": [
+          8,
+          9
+        ],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 8,
+        "name": "Scale - Correct",
+        "mesh_index": 6,
+        "parent": 7,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      },
+      {
+        "index": 9,
+        "name": "Scale - Not Supported",
+        "mesh_index": 7,
+        "parent": 7,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      },
+      {
+        "index": 10,
+        "name": "All",
+        "mesh_index": 5,
+        "parent": -1,
+        "children": [
+          11
+        ],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 11,
+        "name": "All - Correct",
+        "mesh_index": 6,
+        "parent": 10,
+        "children": [],
+        "is_root": false,
+        "has_mesh": true
+      }
+    ],
+    "hierarchy_analysis": {
+      "is_flattened": false,
+      "all_nodes_are_roots": false,
+      "all_nodes_have_no_children": false,
+      "all_nodes_have_meshes": true,
+      "node_count_equals_root_count": false
+    }
+  },
+  "meshes": {
+    "count": 9,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "Offset U",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Offset U_primitive_0",
+            "material_name": "Offset U",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 1,
+        "name": "Offset V",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Offset V_primitive_0",
+            "material_name": "Offset V",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 2,
+        "name": "Offset UV",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Offset UV_primitive_0",
+            "material_name": "Offset UV",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 3,
+        "name": "Rotation",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Rotation_primitive_0",
+            "material_name": "Rotation",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 4,
+        "name": "Scale",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Scale_primitive_0",
+            "material_name": "Scale",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 5,
+        "name": "All",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "All_primitive_0",
+            "material_name": "All",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 6,
+        "name": "Correct Marker",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Correct Marker_primitive_0",
+            "material_name": "Correct",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 7,
+        "name": "Not Supported Marker",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Not Supported Marker_primitive_0",
+            "material_name": "NotSupported",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 8,
+        "name": "Error Marker",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "Error Marker_primitive_0",
+            "material_name": "Error",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      }
+    ]
+  },
+  "materials": {
+    "count": 9,
+    "materials": [
+      {
+        "index": 0,
+        "name": "Offset U",
+        "parameter_count": 12,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{0.5, 0}"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1, 1}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 1,
+        "name": "Offset V",
+        "parameter_count": 12,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{0, 0.5}"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1, 1}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 2,
+        "name": "Offset UV",
+        "parameter_count": 12,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{0.5, 0.5}"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1, 1}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 3,
+        "name": "Rotation",
+        "parameter_count": 13,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "1"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{0, 0}"
+          },
+          "baseColorTexture_rotation": {
+            "type": "float",
+            "value": "0.39269909262657166"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1, 1}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 4,
+        "name": "Scale",
+        "parameter_count": 12,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "1"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{0, 0}"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1.5, 1.5}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 5,
+        "name": "All",
+        "parameter_count": 13,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "1"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "baseColorTexture_offset": {
+            "type": "float2",
+            "value": "{-0.2, -0.1}"
+          },
+          "baseColorTexture_rotation": {
+            "type": "float",
+            "value": "0.30000001192092896"
+          },
+          "baseColorTexture_scale": {
+            "type": "float2",
+            "value": "{1.5, 1.5}"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 6,
+        "name": "Correct",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "2"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 7,
+        "name": "NotSupported",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "3"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      },
+      {
+        "index": 8,
+        "name": "Error",
+        "parameter_count": 10,
+        "parameters": {
+          "_type": {
+            "type": "str",
+            "value": "gltf_pbrMetallicRoughness"
+          },
+          "baseColorFactor": {
+            "type": "float4",
+            "value": "{1, 1, 1, 1}"
+          },
+          "metallicFactor": {
+            "type": "float",
+            "value": "0.0"
+          },
+          "roughnessFactor": {
+            "type": "float",
+            "value": "1.0"
+          },
+          "baseColorTexture": {
+            "type": "int",
+            "value": "4"
+          },
+          "baseColorTexture_texcoord": {
+            "type": "int",
+            "value": "0"
+          },
+          "emissiveFactor": {
+            "type": "float3",
+            "value": "{0, 0, 0}"
+          },
+          "doubleSided": {
+            "type": "bool",
+            "value": "False"
+          },
+          "alphaMode": {
+            "type": "AlphaMode",
+            "value": "AlphaMode.opaque"
+          },
+          "alphaCutoff": {
+            "type": "float",
+            "value": "0.5"
+          }
+        }
+      }
+    ]
+  },
+  "textures": {
+    "count": 5,
+    "textures": [
+      {
+        "index": 0,
+        "source_name": "texture_0",
+        "texture_path": "UV.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 1,
+        "source_name": "texture_1",
+        "texture_path": "Arrow.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 2,
+        "source_name": "texture_2",
+        "texture_path": "Correct.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 3,
+        "source_name": "texture_3",
+        "texture_path": "NotSupported.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      },
+      {
+        "index": 4,
+        "source_name": "texture_4",
+        "texture_path": "Error.png",
+        "is_srgb": false,
+        "has_embedded_data": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "file_path": "C:\\sw\\falcor2\\data\\assets\\cornell-box\\usdpreviewsurface\\cornell-box.usda",
+  "components": {
+    "meshes": 16,
+    "materials": 4,
+    "cameras": 1,
+    "lights": 0,
+    "nodes": 16,
+    "root_nodes": 16
+  },
+  "nodes": {
+    "count": 16,
+    "root_count": 16,
+    "root_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "name": "/cornell_box/tall_box_left/tall_box_left",
+        "mesh_index": 0,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 1,
+        "name": "/cornell_box/tall_box_front/tall_box_front",
+        "mesh_index": 1,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 2,
+        "name": "/cornell_box/ceiling/ceiling",
+        "mesh_index": 2,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 3,
+        "name": "/cornell_box/tall_box_top/tall_box_top",
+        "mesh_index": 3,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 4,
+        "name": "/cornell_box/short_box_back/short_box_back",
+        "mesh_index": 4,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 5,
+        "name": "/cornell_box/floor/floor",
+        "mesh_index": 5,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 6,
+        "name": "/cornell_box/short_box_front/short_box_front",
+        "mesh_index": 6,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 7,
+        "name": "/cornell_box/short_box_top/short_box_top",
+        "mesh_index": 7,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 8,
+        "name": "/cornell_box/tall_box_back/tall_box_back",
+        "mesh_index": 8,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 9,
+        "name": "/cornell_box/short_box_left/short_box_left",
+        "mesh_index": 9,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 10,
+        "name": "/cornell_box/short_box_right/short_box_right",
+        "mesh_index": 10,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 11,
+        "name": "/cornell_box/tall_box_right/tall_box_right",
+        "mesh_index": 11,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 12,
+        "name": "/cornell_box/back_wall/back_wall",
+        "mesh_index": 12,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 13,
+        "name": "/cornell_box/right_wall/right_wall",
+        "mesh_index": 13,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 14,
+        "name": "/cornell_box/left_wall/left_wall",
+        "mesh_index": 14,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      },
+      {
+        "index": 15,
+        "name": "/cornell_box/light/light",
+        "mesh_index": 15,
+        "parent": -1,
+        "children": [],
+        "is_root": true,
+        "has_mesh": true
+      }
+    ],
+    "hierarchy_analysis": {
+      "is_flattened": true,
+      "all_nodes_are_roots": true,
+      "all_nodes_have_no_children": true,
+      "all_nodes_have_meshes": true,
+      "node_count_equals_root_count": true
+    }
+  },
+  "meshes": {
+    "count": 16,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "/cornell_box/tall_box_left/tall_box_left",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/tall_box_left/tall_box_left",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 1,
+        "name": "/cornell_box/tall_box_front/tall_box_front",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/tall_box_front/tall_box_front",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 2,
+        "name": "/cornell_box/ceiling/ceiling",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/ceiling/ceiling",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 3,
+        "name": "/cornell_box/tall_box_top/tall_box_top",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/tall_box_top/tall_box_top",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 4,
+        "name": "/cornell_box/short_box_back/short_box_back",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/short_box_back/short_box_back",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 5,
+        "name": "/cornell_box/floor/floor",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/floor/floor",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 6,
+        "name": "/cornell_box/short_box_front/short_box_front",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/short_box_front/short_box_front",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 7,
+        "name": "/cornell_box/short_box_top/short_box_top",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/short_box_top/short_box_top",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 8,
+        "name": "/cornell_box/tall_box_back/tall_box_back",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/tall_box_back/tall_box_back",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 9,
+        "name": "/cornell_box/short_box_left/short_box_left",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/short_box_left/short_box_left",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 10,
+        "name": "/cornell_box/short_box_right/short_box_right",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/short_box_right/short_box_right",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 11,
+        "name": "/cornell_box/tall_box_right/tall_box_right",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/tall_box_right/tall_box_right",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 12,
+        "name": "/cornell_box/back_wall/back_wall",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/back_wall/back_wall",
+            "material_name": "/cornell_box/materials/white",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 13,
+        "name": "/cornell_box/right_wall/right_wall",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/right_wall/right_wall",
+            "material_name": "/cornell_box/materials/green",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 14,
+        "name": "/cornell_box/left_wall/left_wall",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/left_wall/left_wall",
+            "material_name": "/cornell_box/materials/red",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      },
+      {
+        "index": 15,
+        "name": "/cornell_box/light/light",
+        "vertex_count": 4,
+        "subgeometry_count": 1,
+        "subgeometries": [
+          {
+            "index": 0,
+            "name": "/cornell_box/light/light",
+            "material_name": "/cornell_box/materials/light",
+            "triangle_count": 2
+          }
+        ],
+        "total_triangles": 2
+      }
+    ]
+  }
+}

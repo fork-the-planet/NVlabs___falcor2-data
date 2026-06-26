@@ -1,0 +1,9 @@
+Integral part of falcor2.
+Licensed under Apache 2.0 license (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This notice applies only to the following files in this directory:
+- test_curves.usda
+- test_scope_materials.usda
+- test_usdpreviewsurface_material_input.usda
+
+This notice does not apply to any other files in this directory unless this notice is updated to list them.
