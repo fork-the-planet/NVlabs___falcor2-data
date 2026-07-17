@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    metersPerUnit = 0.01
+    upAxis = "Z"
+)
+
+def DistantLight "Sun"
+{
+    float inputs:angle = 0.5357
+    color3f inputs:color = (0.25, 0.5, 0.75)
+    bool inputs:enableColorTemperature = 0
+    float inputs:exposure = 2
+    float inputs:intensity = 3
+}
+
+def DistantLight "NormalizedSun"
+{
+    float inputs:angle = 60
+    color3f inputs:color = (0.25, 0.5, 0.75)
+    bool inputs:enableColorTemperature = 0
+    float inputs:exposure = 2
+    float inputs:intensity = 3
+    bool inputs:normalize = 1
+}
+
+def DomeLight "TexturelessSky"
+{
+    color3f inputs:color = (0.5, 0.25, 0.125)
+    bool inputs:enableColorTemperature = 0
+    float inputs:exposure = 1
+    float inputs:intensity = 4
+    asset inputs:texture:file
+}
